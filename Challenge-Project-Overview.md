@@ -17,36 +17,45 @@
 > ❌ Remember that this is a public repo. Do NOT include: Proprietary data, PII, API keys, credentials, or anything confidential.
 
 ---
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff only — remove before sharing with students)*
 
-### 🔍 SME Feedback from the Break Through Tech Evaluation Team
+| Check | Status | Notes |
+|-------|--------|-------|
+| Python Compatibility | 🟢 | The use of Python is intrinsic to the project, as LLMs and data manipulation typically rely heavily on Python libraries such as TensorFlow, PyTorch, and pandas. |
+| Data Readiness | 🟡 | While the dataset is <10GB, it requires cleaning and preprocessing which may consume significant time and resources, impacting the project timeline. |
+| Resource Check | 🟢 | The project can be completed using free-tier tools available on platforms like Google Colab, ensuring accessibility for students without specialized hardware or proprietary software limitations. |
 
-*Challenge Advisor: Please address the following feedback by editing this page. Your AI Studio Coach can help make project adjustments as needed, too. In addition to the grey section above, this section should be removed before sharing the repo with your student team.*
+**Student Fit Score:** 6/10  
+**Technical Depth Score:** 7/10  
+**Overall Recommendation:** REVISE
+
+**Advisor Feedback Draft:**
+The project utilizes advanced AI techniques, providing an excellent opportunity for students to engage with cutting-edge technology. However, I recommend clearly defining the ML techniques to be used, providing documentation for the data, and clarifying expectations for project milestones. This will ensure that students can focus on learning and completing the project effectively. I urge you to address these points to enhance clarity and the potential for success.
 
 ---
 
-# [Project Title]
+# AI-Automated Business System Tasks
 
-**Company / Org:** [Company / Org Name]  
-**Challenge Advisor:** [Name, Title, Email]  
+**Company / Org:** Google  
+**Challenge Advisor:** Khushboo Bhatia, khushboobhatia@google.com  
 **Program:** Break Through Tech AI Studio - Fall 2026
 
 ---
 
-## 🏢 About [Company / Org Name]
+## 🏢 About Google
 
-[2-3 sentences about your company: what you do, your industry, etc. You may also choose to specify your specific department or team.]
+Google is a multinational technology company that specializes in Internet-related services and products, including a search engine, online advertising technologies, cloud computing, software, and hardware.
 
 ---
 
 ## 🎯 The Challenge
 
 ### Project Summary
-[In 2-3 sentences, describe what you're asking the team to do. Be specific about the type of data, ML techniques, and potential impact.]
-
-> **Example:** "In this project, your team will use customer transaction data and classification algorithms to build a model that predicts which users are likely to churn. This will help our retention team prioritize outreach."
+In this project, you will use publicly available numerical and text data (in formats such as CSV, TSV, JSON, and Excel) and apply machine learning techniques, including Large Language Models (LLMs)/Generative AI, Transfer Learning/Pre-trained Models, and Reinforcement Learning, to build AI agents. The target outcome is to develop models or systems capable of performing advanced tasks using these AI techniques. This will help our company address business problems related to automating complex processes, enhancing decision-making, and leveraging generative AI capabilities for improved productivity and innovation.
 
 ### Success Criteria
-[What does success look like? Describe evaluation metrics (accuracy, F1 score, etc.) or qualitative outcomes that would make this project valuable to your company.]
+Metrics definition depends upon project.
 
 ### Project Milestones
 
@@ -54,9 +63,9 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month | Milestone | Key Activities |
 |-------|-----------|----------------|
-| **September** | [e.g., Data Understanding] | [e.g., Explore dataset, handle missing values, document findings] |
-| **October** | [e.g., Model Development] | [e.g., Train baseline model, experiment with approaches, iterate] |
-| **November** | [e.g., Evaluation & Presentation] | [e.g., Finalize model, prepare presentation, document results] |
+| **September** | Data Understanding | Explore dataset, handle missing values, document findings |
+| **October** | Model Development | Train baseline model, experiment with approaches, iterate |
+| **November** | Evaluation & Presentation | Finalize model, prepare presentation, document results |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
@@ -65,13 +74,13 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 ## 📊 Dataset
 
 **Name and Source:** [Dataset name and where it's from]  
-**Format:** [e.g., CSV, JSON, images]  
-**Size:** [Approximate size in MB/GB]  
+**Format:** CSV, TSV, JSON, Excel  
+**Size:** 5gb to 10gb  
 **Location:** [Link to dataset or instructions for accessing it]
 
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
+- The project will use publicly available numerical/quantitative and text data stored in CSV/TSV, JSON, and Excel (.xlsx) formats. The dataset currently requires some cleaning/preprocessing and does not include documentation.
+- Some known limitations include the need for significant cleaning and preprocessing of the dataset.
 - [Link to data dictionary or documentation, if available]
 
 ---
@@ -81,7 +90,9 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **ML Problem Type:** [e.g., Classification, Regression, NLP, Computer Vision, LLM/RAG]
 
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+- Large Language Models (LLMs)/ Generative AI
+- Transfer Learning / Pre-trained Models
+- Reinforcement Learning
 
 **Evaluation Metrics:**
 - [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
@@ -115,12 +126,12 @@ The following resources will help your team understand the problem space and pot
 
 **Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
 **Communication:** [e.g., Slack (Break Through Tech workspace) or email]  
-**Response time:** [e.g., Within 48 hours on weekdays]  
+**Response time:** Within 48 hours on weekdays  
 
 **Recommended Tools:**
-- **Coding:** [e.g., Google Colab, VS Code]
-- **Collaboration:** [e.g., GitHub, Notion]
-- **Virtual Meetings:** [e.g., Zoom, Google Meet]
+- **Coding:** Google Colab
+- **Collaboration:** GitHub, Notion
+- **Virtual Meetings:** Zoom, Google Meet
 
 ---
 
@@ -130,10 +141,12 @@ The following resources will help your team understand the problem space and pot
 2. **Begin reviewing the dataset** using the link above
 3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-I’m excited to work with you!
+I'm excited to work with you!
 
 ---
 
 ## ❓ Questions?
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session B). 
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
+
+---
