@@ -27,8 +27,8 @@
 | Resource Check | 🟢 | The project can be completed using free-tier tools available on platforms like Google Colab, ensuring accessibility for students without specialized hardware or proprietary software limitations. |
 |Learning Debt Feasibility | 🔴 | Orchestrating a 5-agent loop risks infinite execution cycles and quickly depleting free-tier API quotas; Handling complex FHIR formats might also introduce early data parsing friction |
 
-**Student Fit Score:** 6/10  
-**Technical Depth Score:** 7/10  
+**Student Fit Score:** 7/10  
+**Technical Depth Score:** 9/10  
 **Overall Recommendation:** REVISE
 
 **Advisor Feedback Draft:**
