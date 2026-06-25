@@ -32,7 +32,7 @@
 **Overall Recommendation:** REVISE
 
 **Advisor Feedback Draft:**
-To guarantee a functional prototype by December within Google Colab's free-tier limits, we must establish guardrails against infinite execution cycles and API quota exhaustion. Please implement these structural pivots before kickoff: 3-Agent Linear Pipeline- Reduce the 5-agent loop to a strictly linear Proof of Concept (Extractor → Simplifier → Verifier); Absorb Readability- Enforce reading-level constraints directly via RAG/prompting in the Simplifier rather than using a separate agent; and Fallback APIs- Provide backup API keys in case students exhaust their free-tier quotas on Groq or Hugging Face.
+To guarantee a functional prototype by December within Google Colab's free-tier limits, we must establish guardrails against infinite execution cycles and API quota exhaustion. I recommend pivotiing to a simpler 3-Agent Linear Pipeline as POC: 3-Agent Linear Pipeline- Reduce the 5-agent loop to a strictly linear Proof of Concept (Extractor → Simplifier → Verifier); Absorb Readability- Enforce reading-level constraints directly via RAG/prompting in the Simplifier rather than using a separate agent; and Fallback APIs- Provide backup API keys in case students exhaust their free-tier quotas on Groq or Hugging Face.
 
 ---
 
