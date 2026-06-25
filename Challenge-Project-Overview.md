@@ -25,7 +25,7 @@
 | Python Compatibility | 🟢 | Python is intrinsic to the project, as LLMs and data manipulation typically rely heavily on libraries such as TensorFlow, PyTorch, and pandas. |
 | Data Readiness | 🟡 | While the dataset is <10GB, it requires cleaning and preprocessing, which may consume significant time and resources, impacting the project timeline. |
 | Resource Check | 🟢 | The project can be completed using free-tier tools available on platforms like Google Colab, ensuring accessibility for students without specialized hardware or proprietary software limitations. |
-|Potential Learning Debt | 🔴 | Orchestrating a 5-agent loop risks infinite execution cycles and quickly depleting free-tier API quotas; Handling complex FHIR formats might also introduce early data parsing friction |
+|Learning Debt Feasibility | 🔴 | Orchestrating a 5-agent loop risks infinite execution cycles and quickly depleting free-tier API quotas; Handling complex FHIR formats might also introduce early data parsing friction |
 
 **Student Fit Score:** 6/10  
 **Technical Depth Score:** 7/10  
