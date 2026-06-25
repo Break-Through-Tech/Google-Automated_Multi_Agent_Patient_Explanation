@@ -22,16 +22,17 @@
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| Python Compatibility | 🟢 | The use of Python is intrinsic to the project, as LLMs and data manipulation typically rely heavily on Python libraries such as TensorFlow, PyTorch, and pandas. |
-| Data Readiness | 🟡 | While the dataset is <10GB, it requires cleaning and preprocessing which may consume significant time and resources, impacting the project timeline. |
+| Python Compatibility | 🟢 | Python is intrinsic to the project, as LLMs and data manipulation typically rely heavily on libraries such as TensorFlow, PyTorch, and pandas. |
+| Data Readiness | 🟡 | While the dataset is <10GB, it requires cleaning and preprocessing, which may consume significant time and resources, impacting the project timeline. |
 | Resource Check | 🟢 | The project can be completed using free-tier tools available on platforms like Google Colab, ensuring accessibility for students without specialized hardware or proprietary software limitations. |
+|Potential Learning Debt | 🔴 | Orchestrating a 5-agent loop risks infinite execution cycles and quickly depleting free-tier API quotas; Handling complex FHIR formats might also introduce early data parsing friction |
 
 **Student Fit Score:** 6/10  
 **Technical Depth Score:** 7/10  
 **Overall Recommendation:** REVISE
 
 **Advisor Feedback Draft:**
-The project utilizes advanced AI techniques, providing an excellent opportunity for students to engage with cutting-edge technology. However, I recommend clearly defining the ML techniques to be used, providing documentation for the data, and clarifying expectations for project milestones. This will ensure that students can focus on learning and completing the project effectively. I urge you to address these points to enhance clarity and the potential for success.
+To guarantee a functional prototype by December within Google Colab's free-tier limits, we must establish guardrails against infinite execution cycles and API quota exhaustion. Please implement these structural pivots before kickoff: 3-Agent Linear Pipeline- Reduce the 5-agent loop to a strictly linear Proof of Concept (Extractor → Simplifier → Verifier); Absorb Readability- Enforce reading-level constraints directly via RAG/prompting in the Simplifier rather than using a separate agent; and Fallback APIs- Provide backup API keys in case students exhaust their free-tier quotas on Groq or Hugging Face.
 
 ---
 
